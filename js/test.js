@@ -6,6 +6,7 @@ const buildPyramid= (n) => {
          (j >= n + 1 - i && j <= n - 1 + i) ? s += "*" : s += " "; //Check   the work book image
        }
       console.log(s);
+      console.log("Testing branch in thirsty ");
      }
  
 };
