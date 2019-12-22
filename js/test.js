@@ -9,5 +9,5 @@ const buildPyramid= (n) => {
      }
  
 };
-
+console.log("fries here")
  module.exports=buildPyramid(6);
