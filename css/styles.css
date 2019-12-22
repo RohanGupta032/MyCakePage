@@ -1,0 +1,165 @@
+.header-container {
+ background-color: cadetblue;
+ height:15vh;
+ display:flex; 
+ flex-direction: row;
+ justify-content: space-around;
+ border-bottom: 2px solid coral;
+ align-items: center;
+ position: fixed;
+ width:100%;
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav-bar {
+    margin-left:25vw;
+}
+.branding img {
+    height:25vh;
+    width:15vw;
+    
+   
+}
+.nav-bar ul {
+ list-style-type: none;
+}
+
+.nav-bar ul li{
+    display: inline;
+    padding: 1em;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color:#fff;
+}
+.nav-bar ul li a:hover{
+    color:coral;
+    border-bottom: 1px solid coral;
+    padding:10px
+}
+.signup {
+    background-color: coral;
+    color:#fff;
+    border:2ps solid #fff;
+    width:10vw;
+    padding:10px;
+    border-radius: 25px;
+}
+.signup:hover {
+    cursor:pointer;
+    background-color: #fff;
+    color:coral;
+}
+
+/* Hero Unit CSS starts here */
+.hero-unit-container{
+    background: url("../images/hero.jpg ");
+    height: 80vh;
+    text-align: center;
+}
+.hero-unit-mask{
+    height:80vh;
+    background-color:rgb(0, 0,0,0.4);
+ 
+}
+
+.hero-unit-mask h1 {
+    margin:0;
+    font-size: 5em;
+    color:#fff;
+    padding-top:25vh;
+
+}
+
+.hero-unit-mask a {
+    text-decoration: none;
+    color: #fff;
+    background-color: coral;
+    padding:1em;
+    border-radius: 5px;
+    display: block;
+    width:10vw;
+    margin:1em auto;
+}
+.hero-unit-mask a:hover {
+    color: coral;
+    background-color: #fff;
+}
+/* Hero unit container css ends here */
+
+/* paper flex container starts here */
+
+.paper-layout-container{
+    display:flex;
+    flex-direction: column;
+    
+}
+.paper-layout-container h1 {
+    color:#444;
+    font-size: 2em;
+    margin: 1em auto;
+}
+
+.paper-layout-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.paper-cake img {
+    height:200px;
+    width:200px;
+}
+
+.paper-cake h2 {
+    font-size: 1em;
+    color:#444;
+}
+.paper-cake {
+    background-color: #fff;
+    box-shadow: 5px 5px 20px grey;
+    padding:1em;
+    text-align: center;
+}
+
+.paper-cake p {
+    font-size: 0.8em;
+    color:#444;
+    font-weight: 500;
+
+}
+
+footer {
+    margin-top:1em;
+    height:10vh;
+    background-color: cadetblue;
+    border-top: 2px solid coral;
+    text-align: center;
+    color:white;
+    padding-top:2em;
+}
+
+@media(max-width:576px){
+
+    .header-container {
+     height:20vh;
+    }
+    .branding img {
+        height:15vh;
+        width:15vw;
+    } 
+    
+    .nav-bar {
+        margin-left:0;
+    }
+
+    .nav-bar ul li{
+        display: block;
+        padding:5px;
+    }
+}
